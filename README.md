@@ -113,8 +113,8 @@ This repetition illustrates how SFT, when trained solely on chosen responses wit
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/Ethan0991/Direct-Preference-Optimization-Implementation.git
+cd Direct-Preference-Optimization-Implementation
 ```
 2. **Install Dependencies:**
 ```bash
