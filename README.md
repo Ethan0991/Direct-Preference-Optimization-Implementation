@@ -50,17 +50,17 @@ The script generates several key analyses to evaluate the performance of the DPO
 ### DPO Loss Evolution
 
 The plot below shows the progression of the DPO loss over the training epochs. A decreasing loss indicates that the model is successfully learning to align with the human preferences.
-![DPO Loss Evolution](./images/dpo_loss_evolution.png)
+![DPO Loss Evolution](./images/loss.png)
 
 ### Model Comparison (DPO vs. SFT vs. Reference)
 
 This plot positions the three models on a Reward vs. KL Divergence axis. The DPO model achieves a better trade-off, securing a higher reward than the SFT model for a similar level of KL divergence, demonstrating its superior alignment capability.
-![Reward vs KL Trade-off](./images/figure2_model_comparison.png)
+![Reward vs KL Trade-off](./images/comp.png)
 
 ### Sensitivity Analysis of the β Parameter
 
 The `beta` (β) parameter in the DPO loss function controls the strength of the KL constraint. An analysis was conducted for different values of β. The plot shows that a higher β pushes the model to seek higher rewards, often at the cost of greater divergence from the original model. A β of 0.5 appears to offer a good balance.
-![Beta Sensitivity Analysis](./images/figure4_beta_sensitivity.png)
+![Beta Sensitivity Analysis](./images/beta_comparaison.png)
 
 ### Qualitative Analysis of Generations
 
