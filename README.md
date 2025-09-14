@@ -4,7 +4,7 @@ This project is a PyTorch implementation of the **Direct Preference Optimization
 
 This work is a practical application of the concepts from the Stanford research paper: **"Direct Preference Optimization: Your Language Model is Secretly a Reward Model"**.
 
-![DPO](./images/dpo.png)
+![DPO](./images/RLHF.png)
 ---
 
 ## 1. Context: DPO vs. Traditional RLHF
